@@ -1,0 +1,11 @@
+.event{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &__item{
+        flex-basis: calc((100% - 20px) / 3);
+        width: 387px;
+    }
+}
+

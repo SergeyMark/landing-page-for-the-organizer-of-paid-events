@@ -1,0 +1,37 @@
+.header__container{
+    display: flex;
+    align-items: center;
+}
+
+// Contacts
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    margin-left: auto;
+}
+
+.contants__tel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: var(--main-font);
+    
+    text-transform: uppercase;
+
+    color: var(--cl-main-text);
+
+    &::before{
+        content: '';
+
+        width: 22px;
+        height: 22px;
+        
+        background-image: url('../img/icon/tel.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
