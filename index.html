@@ -287,8 +287,32 @@
         </div>
       </section>
       <!-- form -->
-      <section class="section">
-        <div class="container"></div>
+      <section class="section section--form-bg">
+        <div class="container">
+          <h2 class="section__titlle">Остались вопросы?</h2>
+          <p class="section__text">
+            Заполните форму и мы ответим на все вопросы
+          </p>
+          <form class="modal-form">
+            <label class="modal-label">
+              <input class="input" type="text" name="name" placeholder=" " />
+              <span class="modal-label-span">name*</span>
+            </label>
+            <label class="modal-label">
+              <input class="input" type="tel" name="tel" placeholder=" " />
+              <span class="modal-label-span">phone*</span>
+            </label>
+            <label class="modal-label-textarea">
+              <textarea
+                class="textarea"
+                name="message"
+                placeholder=" "
+              ></textarea>
+              <span class="modal-span-textarea">message</span>
+            </label>
+            <button class="btn-send" type="submit">send</button>
+          </form>
+        </div>
       </section>
     </main>
   </body>

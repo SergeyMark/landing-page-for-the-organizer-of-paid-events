@@ -57,3 +57,12 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.section--form-bg {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-image: url(../img/form/bg.jpg);
+    background-position: left calc(50% + 462px) top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
