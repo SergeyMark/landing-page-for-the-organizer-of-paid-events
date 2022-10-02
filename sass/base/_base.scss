@@ -10,11 +10,50 @@ body {
     padding: 100px 0;
 }
 
-.section_title{
+.section__title{
     font-family: var(--title-font);
     font-size: 48px;
     line-height: calc(62 / 48);
     letter-spacing: 0.04em;
+
+    text-transform: uppercase;
     
     color: var(--cl-main-text);
+}
+
+.container__section--margin{
+    margin-bottom: 20px;
+}
+
+.container__section--margin-bottom{
+    margin-bottom: 64px;
+}
+
+.section__text{
+    font-size: 22px;
+    line-height: calc(29 / 22);
+        
+    color: var(--cl-main-text);
+
+    max-width: 850px;
+    margin-bottom: 64px;
+}
+
+.section--bg{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: var(--bg-color-grey);
+    background-image: url(../img/sell/sell-bg.png);
+    background-position: left calc(50% + 420px) top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section--offer-bg{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-image: url(../img/offer/offer.jpg);
+    background-position: left calc(50% + 462px) top;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

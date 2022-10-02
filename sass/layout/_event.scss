@@ -1,11 +1,49 @@
 .event{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 
     &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        
+        padding: 20px 16px 12px;
+        
+        box-shadow: 0px 16px 40px var(--cl-card);
+
         flex-basis: calc((100% - 20px) / 3);
-        width: 387px;
+        width: 355px;
+
+        color: var(--cl-main-text);
+
+        transition: color 250ms linear;
+
+
+        &:hover,
+        &:focus {
+            color: var(--color-title);
+        }
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: calc(31 / 24);
+               
+        color: var(--cl-main-text);
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: calc(22 / 17);
+                
+        color: var(--cl-main-text);
     }
 }
 
+.event__icon{
+    fill: currentColor; 
+}

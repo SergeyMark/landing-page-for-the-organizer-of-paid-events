@@ -1,0 +1,23 @@
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.work__item{
+    flex-basis: calc((100% - 30px) / 4);
+
+    border: 1px solid #F7F7F7;
+    
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.06);
+}
+
+.work__title{
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(31 / 24);
+    text-align: center;
+
+    padding: 16px 12px;
+}

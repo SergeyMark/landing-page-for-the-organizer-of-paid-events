@@ -1,0 +1,33 @@
+.sell{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    max-width: 900px;
+
+    &__item {
+        flex-basis: calc((100% - 40px) / 3);
+
+        max-width: 285px;
+        min-height: 200px;
+
+        background-color: #fff;
+        box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.06);
+
+        &:hover,
+        &:focus{
+            background-color: #D50032;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+
+    &__text{
+        font-size: 24px;
+        line-height: calc(31 / 24);
+        text-align: center;
+
+        padding: 69px 16px;
+    }
+}
+
