@@ -59,10 +59,12 @@ body {
 }
 
 .section--form-bg {
+    position: relative;
+
     max-width: 1400px;
     margin: 0 auto;
     background-image: url(../img/form/bg.jpg);
-    background-position: left calc(50% + 462px) top;
+    background-position: left calc(50% + 470px) top;
     background-repeat: no-repeat;
     background-size: contain;
     padding-bottom: 220px;
