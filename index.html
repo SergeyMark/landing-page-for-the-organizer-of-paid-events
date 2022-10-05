@@ -289,28 +289,62 @@
       <!-- form -->
       <section class="section section--form-bg">
         <div class="container">
-          <h2 class="section__titlle">Остались вопросы?</h2>
-          <p class="section__text">
+          <h2 class="section__title section-form--padding">
+            Остались вопросы?
+          </h2>
+          <p class="section__text section__text--padding">
             Заполните форму и мы ответим на все вопросы
           </p>
-          <form class="modal-form">
-            <label class="modal-label">
-              <input class="input" type="text" name="name" placeholder=" " />
-              <span class="modal-label-span">name*</span>
-            </label>
-            <label class="modal-label">
-              <input class="input" type="tel" name="tel" placeholder=" " />
-              <span class="modal-label-span">phone*</span>
-            </label>
-            <label class="modal-label-textarea">
-              <textarea
-                class="textarea"
-                name="message"
+          <form class="form">
+            <label class="form-label">
+              <input
+                class="form-label__input"
+                type="text"
+                name="name"
                 placeholder=" "
-              ></textarea>
-              <span class="modal-span-textarea">message</span>
+              />
+              <span class="form-label__span">name*</span>
             </label>
-            <button class="btn-send" type="submit">send</button>
+            <label class="form-label">
+              <input
+                class="form-label__input"
+                type="text"
+                name="name"
+                placeholder=" "
+              />
+              <span class="form-label__span">name*</span>
+            </label>
+            <label class="form-label">
+              <input
+                class="form-label__input"
+                type="tel"
+                name="tel"
+                placeholder=" "
+              />
+              <span class="form-label__span">phone*</span>
+            </label>
+
+            <label class="politic-wrap">
+              <input
+                class="politic-wrap__input hidden"
+                type="checkbox"
+                name="politic"
+              />
+              <span class="politic-wrap__icon"></span>
+              <span class="politic-wrap__text">
+                Согласен на обработку указанных персональных данных в
+                соответствии с данных
+                <a
+                  class="politic-wrap__link"
+                  href="./"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Политикой в отношении обработки персональных</a
+                >
+              </span>
+            </label>
+
+            <button class="form__btn" type="submit">отправить</button>
           </form>
         </div>
       </section>

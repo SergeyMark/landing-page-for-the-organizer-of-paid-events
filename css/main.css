@@ -235,6 +235,15 @@ body {
   background-position: left calc(50% + 462px) top;
   background-repeat: no-repeat;
   background-size: contain;
+  padding-bottom: 220px;
+}
+
+.section-form--padding {
+  margin-bottom: 32px;
+}
+
+.section__text--padding {
+  margin-bottom: 52px;
 }
 
 .container {
@@ -501,4 +510,29 @@ body {
   border-bottom: none;
   padding-top: 28px;
   padding-bottom: 0;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+  max-width: 387px;
+}
+.form__btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 24px 40px;
+  color: #fff;
+  background-color: #D50032;
+  border: none;
+  -webkit-box-shadow: 0px 16px 40px rgba(179, 2, 44, 0.06);
+          box-shadow: 0px 16px 40px rgba(179, 2, 44, 0.06);
 }/*# sourceMappingURL=main.css.map */
