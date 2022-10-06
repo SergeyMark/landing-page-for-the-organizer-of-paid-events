@@ -10,6 +10,20 @@
     border: 1px solid #F7F7F7;
     
     box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.06);
+
+    
+}
+
+.work__wrap{
+    overflow: hidden;
+
+    &:hover .work__img{
+        transform: scale(1.3);
+    }
+}
+
+.work__img{
+    transition: transform 250ms linear;
 }
 
 .work__title{

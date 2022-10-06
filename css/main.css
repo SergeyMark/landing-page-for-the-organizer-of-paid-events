@@ -171,7 +171,7 @@ img {
   --cl-politic: #676767;
   --bg-color-btn: #D50032;
   --bg-color-grey: #F7F7F7;
-  --cl-card: rgba(0, 0, 0, 0.06);
+  --cl-card: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -220,6 +220,10 @@ body {
   background-position: left calc(50% + 420px) top;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.section--event-bg {
+  background-color: var(--bg-color-grey);
 }
 
 .section--offer-bg {
@@ -417,6 +421,7 @@ body {
       flex-basis: calc((100% - 20px) / 3);
   width: 355px;
   color: var(--cl-main-text);
+  background-color: #fff;
   -webkit-transition: color 250ms linear;
   transition: color 250ms linear;
 }
@@ -458,6 +463,21 @@ body {
   border: 1px solid #F7F7F7;
   -webkit-box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.06);
           box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.06);
+}
+
+.work__wrap {
+  overflow: hidden;
+}
+.work__wrap:hover .work__img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.work__img {
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
 }
 
 .work__title {
