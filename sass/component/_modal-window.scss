@@ -44,3 +44,39 @@
 
     cursor: pointer;
 }
+
+.modal-window__title{
+    font-family: var(--title-font);
+    font-size: 32px;
+    line-height: calc(42 / 32);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: block;
+    margin-bottom: 16px;
+        
+    color: var(--cl-main-text);
+}
+
+.modal-window__text{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: calc(26 / 20);
+    letter-spacing: 0.04em;
+    word-spacing: 0.01em;
+
+    max-width: 425px;
+    margin-bottom: 32px;
+
+    color: var(--cl-main-text);
+}
+
+.form-modal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    max-width: 100%;
+}
+
